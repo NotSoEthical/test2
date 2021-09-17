@@ -21,7 +21,7 @@ jobs:
     runs-on: ${{matrix.platforms}}
     strategy:
       matrix:
-        platforms: [ubuntu-latest, windows-latest]
+        platforms: [ubuntu-latest]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
